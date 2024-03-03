@@ -1,0 +1,110 @@
+.heading{
+    position: absolute;
+    text-align: center;
+    background-color: rgb(139, 138, 138);
+    width: 100%;
+    height: 10%;
+    top:5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid  rgb(208, 204, 204);
+}
+.wallpaper{
+    height: 100vh;
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100vw;
+    background-image: url("img.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calbody{
+    display: flex;
+    position:absolute;
+    height:65%;
+    width:23%;
+    border-radius: 5px;;
+    border: 1px solid rgb(229, 229, 235);
+    background-color:rgb(235, 228, 228);
+    flex-direction: row;
+    justify-content: flex-end ;
+    align-items: flex-end;
+
+    
+}
+.btn{
+    width:60px;
+    height:45px;
+    background-color: gray;
+    border-radius: 10px;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color,0.1s;
+    margin: 2px 2px;
+    padding: 0px;
+    flex-shrink: 1;
+}
+.clr{
+    width:200px;
+    height:45px;
+    background-color: rgb(246, 174, 86);
+    border-radius: 10px;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    transition: background-color,0.1s;
+    margin: 2px 2px;
+    padding: 0px;
+    
+}
+.btn:hover{
+    background-color: rgb(173, 164, 164);
+}
+.sqrt{
+    position: absolute;
+    width: 67%;
+    height:35px;
+    top:65px;
+    left:5px;
+    background-color:rgb(173,164,164) ;
+    
+    
+}
+.calculate{
+    position: absolute;
+    margin-left: 5px;
+    right: 10px;
+    top:65px;;
+    width:64px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    border-color: transparent;
+    background-color: rgb(241, 176, 53);
+    
+}
+.calculation{
+    position: absolute;
+    top:5px;
+    height:14%;
+    width:96%;
+    background-color: rgb(187, 182, 182);
+    border-radius: 5px; 
+    margin: 5px 5px;
+    border-color: transparent;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
